@@ -6,14 +6,14 @@
 ### 设计思路,
 
 ### git init
-### git add *.md
+### git add README.md
 
 ### git commit -m "测试提交0001" 
 ### 在github上创建repository 
 ### 如下命令:
-echo "# CSdormitoryRepairPlatform." >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/UserLeeZJ/CSdormitoryRepairPlatform..git
-git push -u origin master
+#### echo "# CSdormitoryRepairPlatform." >> README.md
+#### git init
+#### git add README.md
+#### git commit -m "first commit"
+#### git remote add origin https://github.com/UserLeeZJ/CSdormitoryRepairPlatform..git
+#### git push -u origin master
