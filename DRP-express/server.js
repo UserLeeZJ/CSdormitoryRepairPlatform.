@@ -7,11 +7,8 @@ var dbOperation = require('./database_operation/databaseOperation');
 
 
 
-
 var upload = multer();
 var app = express();
-
-
 
 
 app.use(bodyParser.json()); 

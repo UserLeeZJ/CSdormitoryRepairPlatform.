@@ -37,7 +37,7 @@ Page({
       content: '寝室号输入有误',
     });
 
-    
+
   },
   checkSid: function(sid){
     var reg = /^[A-Za-z]{2}[0-9]{6}$/
