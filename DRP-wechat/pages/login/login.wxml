@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+  <view class='title'>大学生宿舍报修平台</view>
+  <view class='login_content'>
+     <view class='input_p'><label class='downless'>学号: </label>
+     <input  bindinput='watchStudentId' maxlength='8' type='text' value='{{sid}}'/>
+     </view>
+     <view  bindtap='toRepair' class='button'><button  plain='false'>登录</button></view>
+     <view  bindtap='toRegister' class='button'><button  plain='false'>注册</button></view>
+  </view>
+ 
+</view>
+

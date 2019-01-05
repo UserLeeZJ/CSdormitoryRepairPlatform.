@@ -1,0 +1,40 @@
+/* pages/login/login.wxss */
+page{
+  background: #2da1ed;
+}
+
+.container{
+  line-height: 120%;
+  flex-direction: column;
+  align-items: center; /*垂直居中 justify-content: center; 水平居中*/
+}
+
+.title{
+  position: relative;
+  letter-spacing: 10rpx;
+  top: 60rpx;
+  font-size: 150%;
+  color: lightgoldenrodyellow;
+}
+
+.downless{
+  margin-top: 5rpx;
+}
+
+.login_content{
+  position: relative;
+  letter-spacing: 10rpx;
+  left: 20rpx;
+  top: 600rpx;
+}
+
+.input_p{
+  position: relative;
+  bottom: 40rpx;
+  display:flex;
+}
+
+.button{ 
+  margin-top: 16rpx;
+
+}

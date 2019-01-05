@@ -1,3 +1,34 @@
 {
-  
+  "pages": [
+        "pages/login/login",
+    "pages/register/register",
+
+    "pages/repairs/repairs",
+    "pages/history/history",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2da1ed",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#eda12d ",
+    "backgroundColor": "#2da1ec",
+    "list": [
+      {
+        "pagePath": "pages/repairs/repairs",
+        "text": "报修"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置"
+      }
+    ]
+  }
 }

@@ -1,0 +1,4 @@
+/* pages/history/history.wxss */
+page{
+  background-color: #2da1ec;
+}

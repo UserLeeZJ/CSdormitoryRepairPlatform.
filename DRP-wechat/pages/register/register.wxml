@@ -1,0 +1,23 @@
+<!--pages/register/register.wxml-->
+<view class='container'>
+  <view class='title'>学生注册</view>
+  <view class='content_list'>
+  <form bindsubmit='submitRegistration' bindreset='returnLogin'>
+     <view style='display:flex;'><label class='downless'>学号 : </label>
+     <input name='sid' maxlength='8' type='text' placeholder-class='darkinput' placeholder='{{student.sid}}'/>
+     </view>
+     <view style='display:flex;'><label class='downless'>姓名 : </label>
+     <input name='sname'  type='text' placeholder-class='darkinput' placeholder='{{student.sname}}'/>
+     </view>
+     <view style='display:flex;'><label class='downless'>手机 : </label>
+     <input name='sphone' maxlength='11' type='number' placeholder-class='darkinput' placeholder='{{student.sphone}}'/>
+     </view>
+     <view style='display:flex;'><label class='downless'>寝室 : </label>
+     <input name='sbedchamber'  type='number' placeholder-class='darkinput' placeholder='{{student.sbedchamber}}'/>
+     </view>
+     <button form-type='submit'  class='button_'>提交注册</button>
+     <button form-type='reset'  class='button_'>返回登录</button>
+  </form>
+  </view>
+</view>
+
